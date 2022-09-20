@@ -1,0 +1,24 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index,js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Akash-kadam14/nodeUrlShortner.git"
+  },
+  "author": "Akash-Kadam",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "node-emoji": "^1.11.0",
+    "shortid": "^2.2.16"
+  }
+}
